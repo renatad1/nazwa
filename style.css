@@ -1,0 +1,263 @@
+*{box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+    body {    
+    font-family: 'Open Sans', sans-serif;
+    }
+
+    .wrapper{
+        margin: 0 auto;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .hero-bg {
+         position: absolute;
+         width: 100%;
+         height: 100%;
+         background-color: rgba(0,0,0,0.8);
+    }
+
+    .hero-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff;
+    }
+    
+
+
+    .hero-text h1 {
+        margin-bottom: 5px;
+        text-shadow: 3px 3px 5px #000;
+        color: #ddd;
+    }
+
+    .hero-text span {
+        text-transform: uppercase;
+        color: #643602;
+    }
+
+    .section-title {
+        margin-bottom: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    section {
+        scroll-margin-top: 80px;
+    }
+
+    /*nawigacja*/
+
+    nav {
+        position: sticky;
+        top: 0;
+        height: 60px;
+        line-height: 60px;
+        background-color: white;
+        text-align: center;
+        z-index: 10;
+    
+    }
+    
+    
+    .burger-icon {
+        display: block;
+        margin-left: auto;
+        padding: 0 30px;
+        background: none;
+        border: none;
+        font-size: 30px;
+        line-height: 60px;
+        cursor: pointer;
+    }
+    
+    .nav-items {
+        display: none;
+    }
+
+/*header*/
+.header {
+    position: relative;
+    height: 330px;
+    background-image: url('../img/hero-small.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.header-img {
+    position: relative;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2022/12/05/22/08/open-book-7637805_640.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+/*main*/
+
+main {
+    margin: 60px 0; 
+}
+
+/*o nas*/
+.about-us-info {
+    margin-bottom: 10px;
+    padding: 0 20px;
+}
+
+/*produkty */
+.products {
+    margin: 60px auto;
+}
+
+.img1 {
+    position: relative;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/19/11/11/hands-1838658_1280.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+@media (min-width:2000px) {
+    .img1 {
+        background-image: url(https://cdn.pixabay.com/photo/2019/03/14/11/06/the-museum-4054634_1280.jpg);
+    }
+}
+
+.img2 {
+    position: relative;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2019/03/14/11/06/the-museum-4054634_1280.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.img3 {
+    position: relative;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2017/08/07/03/22/books-2599241_640.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+
+.img4 {
+    position: relative;
+    height: 300px;
+    background-image: url(https://cdn.pixabay.com/photo/2020/10/13/12/22/books-5651702_640.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+}
+.product {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    font-size: 16px;
+}
+
+.product:hover h3 {
+     transform: scale(1.6);
+}
+
+.product h3 {
+    text-transform: uppercase;
+    transition: transform .3s;
+}
+
+
+
+.first-product {
+    background-image: url('../img/children-593313_640.jpg');
+}
+
+.second-product {
+    background-image: url('../img/keyboard-70506_640.jpg');
+}
+
+.third-product {
+    background-image: url('../img/woman-1851464_640.jpg');
+}
+
+.fourth-product {
+    background-image: url('../img/laptop-1483974_640.jpg');
+}
+
+/*kontakt*/
+
+.contact {
+    text-align: center;
+}
+
+.contact h3 {
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+/*footer */
+
+footer {
+   padding: 30px 10px;
+   text-align: center;
+   background-color: #ddd; 
+}
+
+    @media (min-width: 768px) {
+        .burger-icon {
+            display: none;
+        }
+
+        .nav-items {
+            display: block;
+        }
+
+   
+
+
+
+
+ .nav-items a {
+        padding: 0 30px;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #333;
+        transition: color 0.3s;
+    }
+    
+    .nav-items a:hover {
+        color: #09f;
+    }
+    
+    .header {
+        height: 400px;
+        background-image: url('../img/hero-big.jpg');
+    }
+
+    .hero-text h1 {
+        font-size: 36px;
+    }
+
+    .hero-text p {
+        font-size: 18px;
+    }
+
+    .products h3 {
+        font-size: 24px;
+    }
+
+    }
+   
+    @media (min-width: 1200px) {
+        .hero-text h1 {
+            font-size: 42px;
+        }
+    
+        .hero-text p {
+            font-size: 20px;
+        }
+    }
+    
+    
